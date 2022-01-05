@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #333333;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.top-intro-section {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding: 0% 5%;
+}
+
+.top-left {
+  margin-top: 20px;
+}
+
+h1.welcome {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+h1.name {
+  font-size: 60px;
+  margin-bottom: 32px;
+}
+
+h1.name span {
+  color: darkorange;
+}
+
+.top-left h4,
+.right-dream h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.top-left p {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-image: linear-gradient(rgb(255, 102, 0), darkorange);
+}
+
+.top-right img,
+.left-dream img {
+  width: 80%;
+  height: 400px;
+}
+
+section.big-dream {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.right-dream h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.right-dream p {
+  margin-bottom: 20px;
+}
+
+.experience {
+  margin-top: 150px;
+}
+
+.experience h2 {
+  font-size: 40px;
+}
+
+.experience-container {
+  display: flex;
+  margin: 40px 30px;
+}
+
+.experience-left {
+  margin-right: 50px;
+}
+
+.experience-right {
+  margin-left: 50px;
+}
+
+.single-experience {
+  padding: 20px;
+  box-shadow: 0 0 5px 2px #999;
+}
+
+.single-experience h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.single-experience h4 {
+  margin-bottom: 15px;
+  color: darkorange;
+}
+
+.single-experience p {
+  margin-bottom: 50px;
+}
+
+footer {
+  margin-top: 150px;
+  text-align: center;
+  padding: 10px;
+}
